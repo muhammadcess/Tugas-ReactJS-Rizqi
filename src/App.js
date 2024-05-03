@@ -1,16 +1,17 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+import Tugas6 from "./Tugas6/tugas6";
+import Tugas7 from "./Tugas7/tugas7";
 
 function App() {
   return (
     <div className="App">
-      <div className="box">
-        <h1 className="title">Hi, Saya Muhammad Rizqi</h1>
-        <hr></hr>
-        <p className="paragraph">
-          Saya dari Kelas 12 sudah berhasil menginstall React
-        </p>
-      </div>
+      <Tugas6 name="Rizqi" />
+      <Tugas7
+        namaLengkap="Muhammad Rizqi"
+        email="muh52464@smk.belajar.id"
+        kelas="XII Sija"
+      />
     </div>
   );
 }
